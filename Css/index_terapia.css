@@ -1,0 +1,28 @@
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
+ 
+
+fieldset{
+    border-color: var(--main_color);
+    border-radius: 20px;
+    margin: 30px 30%;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+.lei{
+    margin: 30px 10%;
+    font-size: 18px;
+}
+
+h4{
+    text-align: center;
+}
+
+@media(width < 673px){
+    fieldset{
+        margin: 30px 5%;
+    }
+}
