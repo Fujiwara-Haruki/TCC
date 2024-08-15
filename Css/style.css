@@ -7,7 +7,7 @@
 body{
     display: grid;
     font-size: 20px;
-    font-family: "Comic Sans MS";
+    font-family: 'Cutive-Mono', monospace;
     background-color: var(--body-color);
     color: var(--main_color);
 }
@@ -16,10 +16,10 @@ body{
 :root{
     --altura_header: 65px;
     --altura_footer: 60px;
-    --main_color: #4d6585;
-    --main-hover-color: #f7ed9b;
+    --main_color: #2c3136;
+    --main-hover-color: #afcedf;
     --button-color: #b3e9b8; 
     --button-hover-color: #f0f5c0;
-    --body-color: #f0e8c3;
+    --body-color: #ffffff;
 }
 
