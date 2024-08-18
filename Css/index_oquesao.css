@@ -6,9 +6,14 @@
  
 /*imagem 1*/
 
-.img-cemiterio{
-    height: auto;
-    min-width: 100vw;
+.img_cemiterio{
+    width: 100vw;
+    max-width: 100%; /*não ultrapassar o body*/
+    height: 50vh;
+
+
+    object-fit: cover;
+    border-bottom: solid var(--main_color) 2px
 }
 
 

@@ -1,16 +1,15 @@
-/*Pedir ajuda pra bruno pra fazer a imagem não ficar em cima do texto*/
 
 /*principal----------------------------------*/
 .corpo{
     min-height: calc(100vh - var(--altura_header) - var(--altura_footer));
-    margin-left: 18%;
-    margin-right: 18%;
-    position: relative;
+    
 }
 
 /*página*/
 .meio{
     text-align: justify;
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 /*títulos*/
@@ -27,13 +26,18 @@
     text-align: center;
 }
 
-.div_imagem_cemiterio{
-    position: absolute;
+.div_imagem_grande{
+    text-align: center;
 }
+
+
 
 .imagem{
     width: 60vw;
     max-height: 40vw;
+    height: auto;
+
+    padding: 50px;
 }
 
 /*video youtube*/
@@ -80,8 +84,14 @@ hr{
 }
 
 @media (width < 485px){
-    .corpo{
+    .meio{
         margin-left: 8%;
         margin-right: 8%;
+    }
+}
+
+@media (width < 980){
+    .imagem{
+        padding: 0px;
     }
 }
