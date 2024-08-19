@@ -1,7 +1,7 @@
 .back-to-top {
     display: block;
     width: 60px;
-    height: 50px;
+    height: 60px;
     color: #fff;
     text-align: center;
     line-height: 40px;
@@ -15,4 +15,8 @@
 .back-to-top img{
     width: 100%;
     height: 100%;
+}
+
+.back-to-top:hover{
+    transform: scale(1.1);
 }
