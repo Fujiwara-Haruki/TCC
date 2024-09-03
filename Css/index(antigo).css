@@ -1,0 +1,45 @@
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
+@import url(botão_top.css);
+
+/*imagem inicial*/
+
+.imagem_inicial{
+    height: auto; 
+    max-width: 800px;
+}
+
+h3{
+    text-align: center;
+}
+
+.div_alunos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.div_alunos_individual{
+    padding: 40px;
+    margin: 10px;
+    
+}
+
+
+.imagem_alunos{
+    width: 30vw;
+    max-width: 155px;
+    border-radius: 20%;
+    border: 5px solid var(--main_color);
+}
+
+@media (width < 750px){
+
+    .div_alunos_individual{
+        padding: 0px;
+    }
+
+}

@@ -24,20 +24,22 @@
 /* DIV DAS IMAGENS */
 .div_imagem{
     text-align: center;
+    padding: 50px;
 }
 
 .div_imagem_grande{
     text-align: center;
 }
 
-
+.imagem_texto{
+    font-size: 18px;
+}
 
 .imagem{
-    width: 60vw;
+    max-width: 60vw;
     max-height: 40vw;
     height: auto;
 
-    padding: 50px;
 }
 
 /*video youtube*/
