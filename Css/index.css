@@ -16,26 +16,22 @@
     border-bottom: solid var(--main_color) 2px
 }
 
-
-
-/*Imagens*/
-.img-aplicacoes{
-    width: 40vw;
-    max-width: 300px;
-    border-radius: 20px;
-    margin: 20px;
-    border: 2px solid transparent;
+.clique{
+    padding: 20px;
 }
 
-.img-aplicacoes:hover{
+.clique:hover{
     cursor: pointer;
-    border: 2px solid var(--main_color);
+    background-color: var(--main_color);
+    color: var(--body-color);
+    opacity: 0.8;
+    border-radius: 5px;
 }
-
 
 /*Ajeitar blocos*/
 .bloco-flex{
     display: flex;
+    flex-direction: column;
     margin: 30px;
     align-items: center;
     border: 2px solid var(--main_color);
@@ -49,6 +45,7 @@
 }
 
 .texto-um, .texto-dois, .texto-tres{
+    padding: 5px;
     font-size: 0px;
     transition: font-size 1s; /*aparecer e dasaparecer*/
 }
