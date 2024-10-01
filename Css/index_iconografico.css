@@ -4,14 +4,20 @@
 @import url(footer.css);
 @import url(botão_top.css);
  
-.vertical{
-    max-width: 200px;
-    width: 70vw;
+.div_imagem{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+
 .horizontal{
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     width: 70vw;
-    max-width: 600px
+    max-width: 200px;
 }
 
 h4{

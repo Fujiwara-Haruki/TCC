@@ -32,3 +32,11 @@ function apliTres(){
     
 }
 
+function apliQuatro(){
+    var texto_4 = document.querySelector(".texto-quatro");
+    if (texto_4.style.fontSize == "0px"){
+        texto_4.style.fontSize = "20px";
+    } else{
+        texto_4.style.fontSize = "0px";
+    }
+}

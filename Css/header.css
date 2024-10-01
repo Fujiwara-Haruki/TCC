@@ -59,7 +59,7 @@
 
 .menu_1 a:hover{
     background-color: var(--main-hover-color);
-    color: var(--second-color);
+    color: var(--main_color);
 }
 
 .menu_1 li:hover ul{

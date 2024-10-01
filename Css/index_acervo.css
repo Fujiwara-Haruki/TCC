@@ -1,0 +1,25 @@
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
+@import url(botão_top.css);
+
+.div-acervo{
+    text-align: center;
+    padding: 20px;
+}
+
+.link-acervo{
+    padding: 15px;
+}
+.link-acervo a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--main_color);
+    border-radius: 5px;
+}
+
+.link-acervo a:hover{
+    background-color: var(--main_color);
+    color: var(--second-color)
+}

@@ -44,8 +44,8 @@
     text-align: center;
 }
 
-.texto-um, .texto-dois, .texto-tres{
-    padding: 5px;
+.texto-um, .texto-dois, .texto-tres,.texto-quatro{
+    padding: 8px;
     font-size: 0px;
     transition: font-size 1s; /*aparecer e dasaparecer*/
 }
