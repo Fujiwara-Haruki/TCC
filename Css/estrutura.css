@@ -76,7 +76,7 @@ iframe{
     align-items: center;
 }
 
-.botoes a:hover{
+.botoes a:hover, .botoes a:focus{
     background-color: var(--button-hover-color);
     color: var(--main_color);
 }

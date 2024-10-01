@@ -20,7 +20,7 @@
     padding: 20px;
 }
 
-.clique:hover{
+.clique:hover, .clique:focus{
     cursor: pointer;
     background-color: var(--main_color);
     color: var(--body-color);

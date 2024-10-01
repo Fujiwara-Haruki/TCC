@@ -57,16 +57,16 @@
     color: var(--second-color);
 }
 
-.menu_1 a:hover{
+.menu_1 a:hover, .menu_1 a:focus{
     background-color: var(--main-hover-color);
     color: var(--main_color);
 }
 
-.menu_1 li:hover ul{
+.menu_1 li:hover ul, .menu_1 li:focus ul{
     display: block;
 
 }
 
-.menu_1-submenu:hover{
+.menu_1-submenu:hover, .menu_1-submenu:focus{
     cursor: pointer;
 }

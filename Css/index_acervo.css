@@ -19,7 +19,7 @@
     border-radius: 5px;
 }
 
-.link-acervo a:hover{
+.link-acervo a:hover, .link-acervo a:focus{
     background-color: var(--main_color);
     color: var(--second-color)
 }
