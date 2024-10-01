@@ -17,9 +17,23 @@
     margin-right: 10px;
     margin-left: 10px;
     width: 70vw;
-    max-width: 200px;
+    max-width: 240px;
 }
 
 h4{
     text-align: center;
+}
+
+.links li{
+    padding: 20px;
+}
+
+.links li a{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.links li a:hover{
+    background-color: var(--main_color);
+    color: var(--second-color);
 }
