@@ -1,0 +1,45 @@
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
+@import url(botão_top.css);
+
+.div_botao{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.acervo-botao{
+    margin: 10px;
+    width: 240px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px transparent;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: var(--main_color);
+
+    font-family: 'Cutive-Mono', monospace;
+    color: var(--second-color);
+    outline: 3px solid var(--second-color);
+    outline-offset: -10px;
+    
+
+}
+
+.acervo-botao:hover, .acervo-botao:focus{
+    background-image: linear-gradient(to right, rgb(74, 54, 174), rgb(111, 217, 159));
+    background-blend-mode: overlay;
+
+}
+
+span{
+    display: inline-block;
+    width: 185px;
+    max-width: 185px;
+    white-space: normal;
+    text-align: center;
+}
