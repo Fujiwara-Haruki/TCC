@@ -1,0 +1,19 @@
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
+@import url(botão_top.css);
+@import url(index_iconografico.css);
+
+.div_imagem{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.imagemJornal{
+    margin: 10px;
+    border-radius: 2px;
+
+}

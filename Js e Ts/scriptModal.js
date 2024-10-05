@@ -27,7 +27,7 @@ function verificarTab(event, img){
 }
 
 window.addEventListener("click", function(event){
-    if(event.target === modal){
+    if(event.target === modal){ //clicar fora da imagem no modal
         fecharModal();
     }
 })
