@@ -23,3 +23,7 @@
     background-color: var(--main_color);
     color: var(--second-color)
 }
+
+.div-video{
+    text-align: center;
+}
