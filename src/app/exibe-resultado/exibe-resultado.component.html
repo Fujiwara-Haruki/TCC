@@ -1,0 +1,6 @@
+<div class="resultado" *ngIf="cs.obterResultado()">
+    <p>
+        Resultado= {{cs.obterResultado() | number: '1.2-2'}} <br/>
+        {{cs.mensagem}}
+    </p>
+</div>
