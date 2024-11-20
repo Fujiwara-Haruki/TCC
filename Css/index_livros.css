@@ -1,0 +1,14 @@
+
+.links li{
+    padding: 20px;
+}
+
+.links li a{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.links li a:hover, .links li a:focus{
+    background-color: var(--main_color);
+    color: var(--second-color);
+}
