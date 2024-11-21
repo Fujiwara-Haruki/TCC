@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Depoimentos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <%- include('../../Css/depoimentos.ejs'); %>
+
+  </head>
+  <body>
+
+    <a id="seta_top"></a>
+    <!--Cabeçalho - menu 1-->
+    <header class="header">
+        <!--nav menu-->
+        <nav class="header_details">
+
+            <ul class="menu_1">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="./Html/index_acervo.html">Acervo</a>
+                    <ul class="menu_1-submenu">
+                        <li><a href="./Html/index_iconografico.html">Acervo Iconográfico</a></li>
+                        <li><a href="./Html/index_docs_e_jornais.html">Recortes de Jornais</a></li>
+                        <li><a href="./Html/index_videos.html">Documentários e vídeos</a></li>
+                        <li><a href="./Html/index.livros.html">Livros e artigos</a></li>
+                    </ul>
+                </li>
+                <li><a href="./Html/index_referencias.html">Estude mais afundo</a></li>
+                <li><a href="http://localhost:3000/depoimento/listar">Depoimentos</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="corpo">
+
+        <div class="meio">
+            
+    <h1 class="titulo">Depoimentos</h1>
+
+    
+
+    <div class="comments-container">
+
+        <a href="http://localhost:3000/depoimento/add" class="btn">Registrar</a>
+
+      <% if (resultado.length > 0) { %>
+        <% for (item of resultado) { %>
+          <div class="comment">
+            <div class="comment-nome">
+              <h3><%= item.nome %></h3>
+            </div>
+            <div class="comment-dep">
+              <p><%= item.depoimento %></p>
+            </div>
+            <div class="comment-email">
+              <span><%= item.email %></span>
+            </div>
+          </div>
+        <% } %>
+      <% } else { %>
+        <p>Nenhum depoimento encontrado.</p>
+      <% } %>
+    </div>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <a href="#seta_top" class="back-to-top"> <img src="../../Imagens/seta.png" alt="Voltar pro início"></a>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registrar depoimentos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <h1>Deixe seu depoimento</h1>
+    <form method="POST" action="/depoimento/add">
+
+      <div class="col-md-4">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+      </div>
+
+      <div class="col-md-4">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="xxx@gmail.com" required>
+      </div>
+
+      <div class="col-12">
+        <label for="depoimento" class="form-label">Depoimento:</label><br>
+        <textarea id="depoimento" name="depoimento" rows="5" cols="40" required></textarea>
+        <br><br>
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </div>
+        
+    </form>
+  </body>
+</html>
