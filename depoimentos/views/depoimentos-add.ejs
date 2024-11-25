@@ -3,32 +3,68 @@
   <head>
     <title>Registrar depoimentos</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <%- include('../../Css/depoimentos.ejs'); %>
     
   </head>
   <body>
-    <h1>Deixe seu depoimento</h1>
-    <form method="POST" action="/depoimento/add">
 
-      <div class="col-md-4">
-        <label for="nome" class="form-label">Nome:</label>
-        <input type="text" class="form-control" id="nome" name="nome" required>
-      </div>
+    
+  </head>
+  <body>
 
-      <div class="col-md-4">
-        <label for="email" class="form-label">E-mail:</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="xxx@gmail.com" required>
-      </div>
+    <a id="seta_top"></a>
+    <!--Cabeçalho - menu 1-->
+    <header class="header">
+        <!--nav menu-->
+        <nav class="header_details">
 
-      <div class="col-12">
-        <label for="depoimento" class="form-label">Depoimento:</label><br>
-        <textarea id="depoimento" name="depoimento" rows="5" cols="40" required></textarea>
-        <br><br>
-      </div>
+            <ul class="menu_1">
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="../../Html/index_acervo.html">Acervo</a>
+                    <ul class="menu_1-submenu">
+                        <li><a href="../../Html/index_iconografico.html">Acervo Iconográfico</a></li>
+                        <li><a href="../../Html/index_docs_e_jornais.html">Recortes de Jornais</a></li>
+                        <li><a href="../../Html/index_videos.html">Documentários e vídeos</a></li>
+                        <li><a href="../../Html/index.livros.html">Livros e artigos</a></li>
+                    </ul>
+                </li>
+                <li><a href="../../Html/index_referencias.html">Estude mais afundo</a></li>
+                <li><a href="http://localhost:3000/depoimento/listar">Depoimentos</a></li>
 
-      <div class="col-12">
-        <button type="submit" class="btn btn-dark">Enviar</button>
-      </div>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="corpo">
+
+      <div class="meio">
         
-    </form>
+      <h1 class="titulo">Deixe seu depoimento</h1>
+      <form method="POST" action="/depoimento/add">
+
+        <div class="col-md-4">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="xxx@gmail.com" required>
+        </div>
+
+        <div class="col-12">
+          <label for="depoimento" class="form-label">Depoimento:</label><br>
+          <textarea id="depoimento" name="depoimento" rows="5" cols="40" required></textarea>
+          <br><br>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-dark">Enviar</button>
+        </div>
+          
+         </form>
+      </div>
+    </main>
   </body>
 </html>
