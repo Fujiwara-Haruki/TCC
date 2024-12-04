@@ -1,0 +1,1 @@
+Para a parte de depoimentos funcionar, é preciso inicializar o apache e o mysql no XAMPP, criar um banco de dados locar e importar o arquivo bd.sqql 
